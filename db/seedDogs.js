@@ -1,4 +1,4 @@
-db = connect("localhost:27017/shelter"); 
+db = connect("localhost:27017/shelter"); //mongo has the port number 27017 by default
 
 db.dogs.insertMany([ 
     { name: 'Mochi', breed: 'shi-pu', ownerName: 'Naz' },

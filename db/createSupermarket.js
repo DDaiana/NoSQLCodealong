@@ -1,4 +1,4 @@
-let db = connect("localhost:27017/supermarket");
+ db = connect("localhost:27017/supermarket");
 
 db.list.insertMany([
     { name: 'hummus', price: 1.99, category: 'snacks' },
