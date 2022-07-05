@@ -1,0 +1,1 @@
+docker exec -it shelter-db mongo
